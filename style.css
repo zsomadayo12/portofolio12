@@ -1,0 +1,133 @@
+body{
+   text-align: center;
+   width: 100%;
+   margin: auto;
+   background-color:brown; ;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#all{
+  width: 100%;
+  margin: auto;
+}
+
+nav{
+ background-color: brown;
+ align-items: center;
+ display:flex;
+ justify-content: space-between;
+ padding: 0 7% 0 7%;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 7px 16px;
+}
+
+nav ul li a{
+ text-decoration: none;
+ color: rgb(241, 239, 236);
+ font-weight: bold;
+}
+
+nav ul li a:hover{
+  color: rgb(255, 149, 0);
+  transition: 0.5s;
+}
+nav h1{
+  color: white;
+}
+
+.nama{
+  color: rgb(241, 239, 236);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+span{
+  background-color:rgb(255, 149, 0);
+  display: flexbox;
+  color: rgb(241, 239, 236);
+  border-radius: 1px;
+   
+}
+#profile{
+  background-image:url(pexels-photo-2440021.jpeg); 
+  cursor: pointer;
+}
+
+#profile1{
+  background-image:url(pexels-photo-2440021.jpeg); 
+  cursor: pointer;
+  padding-bottom: 350px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+
+.falajaru{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.gambar{
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+  padding: 8px 8% 0 8%;
+}
+.gambar1{
+  width: 27%;
+  height: 33%;
+  
+}
+.gambar2{
+  width: 27%;
+  height: 30%;
+ 
+}
+.gambar3{
+  width: 24.2%;
+  height: 30%;
+}
+.video1{
+  width: 25%;
+  height: 30%;
+}
+h2{
+  text-decoration-line: underline;
+}
+
+.footer{
+  background-color: brown;
+  align-items: center;
+  border-radius: 6px;
+  display:flex;
+  justify-content: space-between;
+  padding: 60px 9% 0 9%;
+}
+
+iframe{
+  width: 450px;
+  height: 200px;
+
+}
+.kontak{
+  display: inline-block;text-align: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.wa{
+  width: 20%;
+  height: 10%;
+}
+
+h2{
+  color: white;
+}
+h3{
+  color: white;
+}
